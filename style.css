@@ -73,6 +73,11 @@ body {
   background: #fff;
 }
 
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /* Typography */
 .title {
   background: #edf6f9;
@@ -80,6 +85,7 @@ body {
   font-size: 48px;
   font-family: "Loto", sans-serif;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .calc-display__title {
@@ -89,9 +95,19 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-style: italic;
+  text-align: center;
 }
 
 .calc-options__control {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 16px 24px;
+  background: #edf6f9;
+  color: rgb(0, 0, 0);
+}
+
+.calc-options__control__logic {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 24px;
@@ -100,25 +116,31 @@ body {
 
 /* Buttons */
 
-.calc__num {
+/* .calc__num {
   background: #edf6f9;
   color: rgb(0, 0, 0);
-}
+} */
 
 .calc-options__logic__equal {
   background: #e29578;
   color: #fff;
 }
-.calc-options__logic__equal {
+.calc-options__logic__clear {
   background: #ac8a72;
   color: #fff;
 }
 
 /* Header */
-.wrapper {
-  width: 1200px;
-  margin: 0 auto;
-}
 .header {
   text-align: center;
 }
+
+/* Calculator Section */
+
+.calc {
+  border: 2px solid gray;
+}
+
+/* Calc Display */
+
+/* Calc Options */
